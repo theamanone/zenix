@@ -1,16 +1,15 @@
 {
-  "name": "modern-code-themes",
-  "displayName": "🎨 Modern Code Theme Studio",
+  "name": "zenix",
+  "displayName": "🎨 Zenix Theme Studio",
   "description": "A collection of stunning VS Code themes with UI enhancements. Features Glassmorphism, Neon, Material Design, and more!",
   "version": "1.0.0",
-  "publisher": "moderncode",
+  "publisher": "amankirmara",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
   ],
-  "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#1A1A1A",
     "theme": "dark"
@@ -62,8 +61,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/moderncode/vscode-themes"
+    "url": "https://github.com/theamanone/zenix.git"
   },
-  "scripts": {},
-  "activationEvents": []
+  "scripts": {}
 }
