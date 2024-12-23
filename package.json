@@ -1,0 +1,69 @@
+{
+  "name": "modern-code-themes",
+  "displayName": "🎨 Modern Code Theme Studio",
+  "description": "A collection of stunning VS Code themes with UI enhancements. Features Glassmorphism, Neon, Material Design, and more!",
+  "version": "1.0.0",
+  "publisher": "moderncode",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1A1A1A",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Glass Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/glass-dark.json"
+      },
+      {
+        "label": "Glass Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/glass-light.json"
+      },
+      {
+        "label": "Neon Nights",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-nights.json"
+      },
+      {
+        "label": "Material Light",
+        "uiTheme": "vs",
+        "path": "./themes/material-light.json"
+      },
+      {
+        "label": "Material Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-dark.json"
+      },
+      {
+        "label": "Minimal Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minimal-dark.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "glass theme",
+    "glassmorphism",
+    "neon theme",
+    "material design",
+    "minimal theme",
+    "dark theme",
+    "light theme",
+    "ui theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moderncode/vscode-themes"
+  },
+  "scripts": {},
+  "activationEvents": []
+}
